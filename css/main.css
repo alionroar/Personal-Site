@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    justify-content: center;
+    min-height: 57.5rem;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+header {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    text-align: center;
+    padding:10rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 0 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0 3rem;
+}
+
+img {
+    width: 100%;
+    max-width: 64rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+main {
+    flex: 2 auto;
+    width: calc(100% - 4rem);
+}
+
+main > div {
+    margin: 0 auto;
+    min-width: 35rem;
+    margin-bottom: 10rem;
+}
+
+main > #links {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+main p {
+    font-size: 1rem;
+    color: #FF0F0F;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+footer {
+    background-color: black;
+    padding: 1rem 1rem 2rem;
+    width: 100%;
+}
+
+footer > div {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 64rem;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    padding: .25rem;
+}
+
+footer span {
+    display: block;
+}
+
+footer a {
+    color: #9E9E9E;
+    font-style: italic;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+#window {
+  position: absolute;
+  border: solid .1rem black;
+}
+#title, #main-screen {
+  border-bottom: solid .2rem black;
+}
+#main-screen {
+  padding: 5rem;
+}
+#main-screen p {
+  text-align: right;
+}
+#title, #date-window {
+  height: 3rem;
+  padding-left: 1rem;
+}
+#date-window li {
+  list-style-type: none;
+  text-align: right;
+}
+
+@media only screen and (min-width: 640px) {
+    footer span {
+        display: inline;
+    }
+}
