@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <main>
+            <h2 id="project-one">hi one project is this</h2>
+              <p> me talking about project one blah blah blah blah blah blah blah.</p>
+        </main>
+        <script>
+        </script>
+    </body>
+</html>

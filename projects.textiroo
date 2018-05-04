@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <main>
+            <li><a onclick="loadPage('/project-one.textiroo');"> Project 1</a></li>
+            <li><a onclick="loadPage('/project-two.textiroo');">Project 2</a></li>
+        </main>
+    </body>
+</html>

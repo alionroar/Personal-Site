@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main>
+    <div id="me-heading">
+        <h2 id="about">Alexandra Pereira</h2>
+        <img src="/img/ali.jpg" alt="me" id="me">
+    </div>
+
+    <p class="word-content">
+        I am a university student studying a dual major in Interactive and Visual Design
+        / Computer Science at QUT. <br>
+
+        More importantly, I am a curious and empathetic being who wants to make
+        web products more user friendly and yet more exploratory in design. Sounds a little counter-intuitive
+        hey? As users of the web become increasingly more digitally native, the potential for exciting stuff heightens...
+    </p>
+    <p class="word-content left-align">
+        Why I chose design: Lorem ipsum dolor sit amet, no inani omnes mel.
+        Id vel errem deterruisset. Fierent luptatum vim ei. Mei no decore nostro.
+        Ut quo numquam debitis, ad qui nulla apeirian platonem.
+
+        Has id iisque principes. Simul nonumy eu vis, cum ipsum fierent an,
+        in impedit minimum sed. Sale ludus comprehensam cu eam. Modus fastidii volutpat
+        eos id, zril oratio at his. Mel legendos tacimates te.
+    </p>
+    <p class="word-content">
+        Fun Facts: <br>
+
+        <ul>
+         <li>I like food</li>
+         <li>I like food</li>
+         <li>I like food</li>
+        </ul>
+    </p>
+</main>
+<script>
+</script>
+</body>
+</html>

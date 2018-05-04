@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main>
+    <h2 id="project-two">hi two project is this</h2>
+    <p> me talking about project one blah blah blah blah blah blah blah.</p>
+</main>
+</body>
+</html>

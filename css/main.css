@@ -25,7 +25,7 @@ header {
     box-sizing: border-box;
     flex: 0 1 auto;
     text-align: center;
-    padding:10rem;
+    padding:5rem;
 }
 
 h1 {
@@ -35,17 +35,30 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    margin: 0 3rem;
+    margin: 3rem 0 3rem 0;
 }
 
+h2 #about {
+    letter-spacing: 3rem;
+}
 img {
-    width: 100%;
+    width: 30%;
     max-width: 64rem;
+}
+
+#me {
+    clip-path: circle(70px at center);
+    align-self: center;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 abbr {
@@ -54,25 +67,45 @@ abbr {
 
 main {
     flex: 2 auto;
-    width: calc(100% - 4rem);
+    margin: 0 auto;
 }
 
 main > div {
     margin: 0 auto;
     min-width: 35rem;
-    margin-bottom: 10rem;
+    max-width: 70rem;
+}
+#links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
 }
 
+#links > #about, #projects, #experience {
+    width: 20rem;
+    text-align: center;
+}
 main > #links {
-  margin: 0 auto;
-  max-width: 60rem;
+    max-width: 60rem;
+    margin-top: 70vh;
 }
 
-main p {
-    font-size: 1rem;
+#projects, #about {
+    scroll-behavior: smooth;
+}
+
+main p, main a, main h2 {
     color: #FF0F0F;
     font-weight: 600;
     letter-spacing: .1rem;
+}
+
+main p, main a {
+    font-size: 1rem;
+}
+
+main ul {
+    padding-left: 0;
 }
 
 footer {
@@ -114,29 +147,106 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
-    color: white;
+#filesList {
+  padding-top: 11rem;
+
 }
+
+.word-content {
+    max-width: 40rem;
+    color: black;
+    font-size: 1.03rem;
+    letter-spacing: .02rem;
+    line-height: 1.8rem;
+}
+
+.left-align {
+    margin-left: 50%;
+}
+
+#files {
+    height: 80rem;
+    min-width: 70rem;
+}
+
 #window {
+  margin: auto;
   position: absolute;
   border: solid .1rem black;
+  left: calc(50% - 17.5rem);
+  transition: top .5s 0s cubic-bezier(.1, 1.2, .3, 1),
+              transform .5s 0s cubic-bezier(.1, 1.2, .3, 1),
+              width .5s .5s cubic-bezier(.1, 1.2, .3, 1);
+  transition: 4s;
+  z-index: 2;
 }
+
+div:hover {
+  max-width: 10rem;
+}
+
 #title, #main-screen {
   border-bottom: solid .2rem black;
 }
+
+#title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#window-btns {
+    display:flex;
+}
+
+#window-btns li {
+    padding: 0 .5rem 0 .5rem;
+    color: #FF0F0F;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
 #main-screen {
   padding: 5rem;
 }
+
 #main-screen p {
   text-align: right;
 }
-#title, #date-window {
+
+#title, #footer-window {
   height: 3rem;
   padding-left: 1rem;
 }
-#date-window li {
+
+#footer-window li {
   list-style-type: none;
   text-align: right;
+}
+
+#footer-window {
+    display: flex;
+    justify-content: space-between;
+}
+
+#socials {
+    display: flex;
+}
+
+#socials li {
+    padding: 0 .5rem 0 .5rem;
+}
+
+#me-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-content {
+  padding-bottom: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 640px) {
