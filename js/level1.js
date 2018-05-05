@@ -144,3 +144,13 @@ document.querySelector('#experience').addEventListener("click", function(){
 
 });
 
+document.querySelector('#btn-minimize').addEventListener("click", function(){
+    var element = document.querySelector('#window');
+    element.classList.add("minimise");
+    console.log("click minimise");
+});
+
+document.querySelector('#btn-exit').addEventListener("click", function(){
+    windowe.remove();
+    console.log("click exit");
+});

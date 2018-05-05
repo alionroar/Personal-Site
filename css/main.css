@@ -177,12 +177,11 @@ footer a {
   transition: top .5s 0s cubic-bezier(.1, 1.2, .3, 1),
               transform .5s 0s cubic-bezier(.1, 1.2, .3, 1),
               width .5s .5s cubic-bezier(.1, 1.2, .3, 1);
-  transition: 4s;
-  z-index: 2;
 }
 
-div:hover {
-  max-width: 10rem;
+.minimise {
+    transition: 4s;
+    opacity: 0;
 }
 
 #title, #main-screen {
