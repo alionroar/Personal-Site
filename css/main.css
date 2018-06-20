@@ -169,19 +169,14 @@ footer a {
     min-width: 70rem;
 }
 
-#window {
+.window {
   margin: auto;
-  position: absolute;
+  position: fixed;
   border: solid .1rem black;
   left: calc(50% - 17.5rem);
   transition: top .5s 0s cubic-bezier(.1, 1.2, .3, 1),
               transform .5s 0s cubic-bezier(.1, 1.2, .3, 1),
               width .5s .5s cubic-bezier(.1, 1.2, .3, 1);
-}
-
-.minimise {
-    transition: 4s;
-    opacity: 0;
 }
 
 #title, #main-screen {
@@ -242,6 +237,24 @@ footer a {
 
 .screen-content {
   padding-bottom: 1rem;
+}
+
+#btn-maximize {
+    z-index: 9;
+    cursor: pointer;
+}
+
+#btn-exit, #btn-minimize, #btn-maximize {
+    cursor: pointer;
+}
+
+#btn-exit:hover, #btn-minimize:hover, #btn-maximize:hover {
+     opacity: .7;
+ }
+
+.minimized .window {
+     top: 100%;
+     transform: translate(-50%, -3rem);
 }
 
 a:hover {

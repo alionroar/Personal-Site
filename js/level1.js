@@ -1,7 +1,7 @@
 var mousePosition;
 var offset = [0,0];
 var isDown = false;
-var windowe = document.querySelector('#window');
+var windowe = document.querySelector(".window");
 var d = new Date();
 document.getElementById("date-window").innerHTML = d.getDate() + "." + (d.getMonth() + 1) + "." + d.getFullYear();
 
@@ -85,18 +85,6 @@ document.querySelector('#projects').addEventListener("click", function(){
 
     loadPage('/projects.textiroo');
 
-  // var projectLinks = document.createElement("a");
-  // var projectLinksNode = document.createTextNode("Hi");
-  // projectLinks.appendChild(projectLinksNode);
-  // projectLinks.style.height = 10 + 'rem';
-  // var fileDiv = document.getElementById("filesList");// fileDiv.appendChild(projectLinks);
-  // document.getElementById("filesList").innerHTML='<object type="text/html" data="projects.html" id="innerDoc"></object>';
-  // var innerDoc = document.querySelector('#innerDoc').contentDocument;
-  //   innerDoc.querySelector('#project-one').addEventListener("click", function(){
-  //       document.getElementById("filesList").innerHTML = "";
-  //       document.getElementById("filesList").innerHTML='<object type="text/html" data="project-one.html" ></object>';
-  //   });
-
   window.history.pushState({id:'projects'} , 'projects','projects.html');
 
     var projectsLink = document.getElementById("projects");
@@ -145,10 +133,11 @@ document.querySelector('#experience').addEventListener("click", function(){
 });
 
 document.querySelector('#btn-minimize').addEventListener("click", function(){
-    var element = document.querySelector('#window');
-    element.classList.add("minimise");
+    var element = document.querySelector("body");
+    element.classList.add("minimized");
     console.log("click minimise");
-});
+
+    });
 
 document.querySelector('#btn-exit').addEventListener("click", function(){
     windowe.remove();

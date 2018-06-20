@@ -5,35 +5,37 @@
         <title>Ali's Website</title>
         <link rel="stylesheet" href="css/main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header>
           <div class="date-top"></div>
         </header>
         <main>
-          <div id="window" class="">
-            <div id="title">
-                <p>ALI'S WEBSITE :0</p>
-                <ul id="window-btns">
-                    <li class="btn" id="btn-minimize">Min</li>
-                    <li class="btn" id="btn-maximize">Max</li>
-                    <li class="btn" id="btn-exit">Exi</li>
-                </ul>
-            </div>
-            <div id="main-screen">
-                <p class="screen-content">HELLO...</p>
-                <p class="screen-content">MY NAME IS ALI :)</p>
-                <p>I LOVE TO CREATE</p>
-            </div>
-            <div id="footer-window">
-                <p id="date-window"></p>
-                <ul id="socials">
-                  <li class="btn" id="btn-F">F</li>
-                  <li class="btn" id="btn-E">E</li>
-                  <li class="btn" id="btn-I">I</li>
-                  <li class="btn" id="btn-G">G</li>
-                </ul>
-            </div>
+          <div class="window" class="">
+                  <div id="title">
+                      <p>ALI'S WEBSITE :0</p>
+                      <ul id="window-btns">
+                          <li class="btn" id="btn-minimize">Min</li>
+                          <li class="btn" id="btn-maximize">Max</li>
+                          <li class="btn" id="btn-exit">Exi</li>
+                      </ul>
+                  </div>
+                  <div id="main-screen">
+                      <p class="screen-content">HELLO...</p>
+                      <p class="screen-content">MY NAME IS ALI :)</p>
+                      <p>I LOVE TO CREATE</p>
+                  </div>
+                  <div id="footer-window">
+                      <p id="date-window"></p>
+                      <ul id="socials">
+                          <li class="btn" id="btn-F">F</li>
+                          <li class="btn" id="btn-E">E</li>
+                          <li class="btn" id="btn-I">I</li>
+                          <li class="btn" id="btn-G">G</li>
+                      </ul>
+                  </div>
+                  <div class="minimized"></div>
         </div>
 
             <div id="links">
@@ -74,5 +76,19 @@
             </div>
         </footer> -->
         <script src="js/level1.js"></script>
+    <!--<SCRIPT>-->
+        <!--$(document).ready(function(){-->
+            <!--$('#btn-minimize').on('click', function(){minimize();});-->
+            <!--$('#btn-maximize').on('click', function(){maximize();});-->
+        <!--});-->
+
+        <!--function minimize(){-->
+            <!--$('body').addClass('minimized');-->
+        <!--}-->
+
+        <!--function maximize(){-->
+            <!--$('body').removeClass('minimized');-->
+        <!--}-->
+    <!--</SCRIPT>-->
     </body>
 </html>
