@@ -40,6 +40,11 @@ document.addEventListener('mousemove', function(event) {
           } else if (windowe.offsetTop+ windowe.offsetHeight > document.body.clientHeight) {
               windowe.style.top = (document.body.clientHeight - windowe.offsetHeight) + 'px';
             }
+            // if (windowe.offsetTop > document.body.clientHeight) {
+            //     windowe.style.bottom = 0 + 'px';
+            // } else if (windowe.offsetTop + windowe.offsetHeight < document.body.clientHeight) {
+            //     windowe.style.top = (document.body.clientHeight - windowe.offsetHeight) + 'px';
+            // }
     }
 
 }, true);
@@ -128,16 +133,28 @@ document.querySelector('#experience').addEventListener("click", function(){
 
     var projectsLink = document.getElementById("projects");
     projectsLink.style.textDecoration = "none";
-
-
 });
 
 document.querySelector('#btn-minimize').addEventListener("click", function(){
     var element = document.querySelector("body");
+    var min = document.querySelector('#btn-minimize');
+    var max = document.querySelector('#btn-maximize');
+    var exi = document.querySelector('#btn-exit');
     element.classList.add("minimized");
-    console.log("click minimise");
+    min.remove();
+    max.remove();
+    exi.remove();
+    console.log("click minimize");
+    // document.querySelector('#title').innerHTML = '<a>html data</a>';
 
-    });
+});
+
+document.querySelector('#btn-maximize').addEventListener("click", function(){
+    var element = document.querySelector("body");
+    element.classList.add("maximized");
+    console.log("click maximize");
+
+});
 
 document.querySelector('#btn-exit').addEventListener("click", function(){
     windowe.remove();

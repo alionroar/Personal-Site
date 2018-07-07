@@ -7,36 +7,28 @@
 <body>
 <main>
     <div id="me-heading">
-        <h2 id="about">Alexandra Pereira</h2>
-        <img src="/img/ali.jpg" alt="me" id="me">
+        <h2 id="about">About</h2>
+        <div id="me-image">
+            <div id="me-layer"></div>
+            <img src="/img/ali.jpg" alt="me" id="me">
+        </div>
+
+    </div>
+    <div class="word-content">
+        <p>
+            My name is Alexandra Pereira. <br><br>
+            I am an Australian Interactive Design and Computer Science student based in Brisbane.<br><br>
+            I have an obsession and enthusiasm for all things design. My focus is UX/UI design and digital production.<br><br>
+            Design that excites me is experiential, empathetic and experimental. And my aim is to create what excites me.<br><br>
+            Current Inspirations:
+        <ul>
+            <li>Web -  <a href="http://atacac.com/drop/2017/" target="_blank">Actac Virtual Yearbook 2017</a></li>
+            <li>Motion Graphics - <a href="https://vimeo.com/272130789" target="_blank">Semi Permanent Opening Titles 2018</a></li>
+            <li>Print - <a href="https://www.instagram.com/baugasm/" target="_blank">Baugasm Posters</a> </li>
+        </ul>
+        </p>
     </div>
 
-    <p class="word-content">
-        I am a university student studying a dual major in Interactive and Visual Design
-        / Computer Science at QUT. <br>
-
-        More importantly, I am a curious and empathetic being who wants to make
-        web products more user friendly and yet more exploratory in design. Sounds a little counter-intuitive
-        hey? As users of the web become increasingly more digitally native, the potential for exciting stuff heightens...
-    </p>
-    <p class="word-content left-align">
-        Why I chose design: Lorem ipsum dolor sit amet, no inani omnes mel.
-        Id vel errem deterruisset. Fierent luptatum vim ei. Mei no decore nostro.
-        Ut quo numquam debitis, ad qui nulla apeirian platonem.
-
-        Has id iisque principes. Simul nonumy eu vis, cum ipsum fierent an,
-        in impedit minimum sed. Sale ludus comprehensam cu eam. Modus fastidii volutpat
-        eos id, zril oratio at his. Mel legendos tacimates te.
-    </p>
-    <p class="word-content">
-        Fun Facts: <br>
-
-        <ul>
-         <li>I like food</li>
-         <li>I like food</li>
-         <li>I like food</li>
-        </ul>
-    </p>
 </main>
 <script>
 </script>

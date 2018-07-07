@@ -6,8 +6,8 @@
     </head>
     <body>
         <main>
-            <li><a onclick="loadPage('/project-one.textiroo');"> Project 1</a></li>
-            <li><a onclick="loadPage('/project-two.textiroo');">Project 2</a></li>
+            <li><a onclick="loadPage('/project-one.textiroo');"> Sweet Sweat Branding </a></li>
+            <li><a onclick="loadPage('/project-two.textiroo');"> QAG App Micro Solution </a></li>
         </main>
     </body>
 </html>

@@ -6,8 +6,18 @@
     </head>
     <body>
         <main>
-            <h2 id="project-one">hi one project is this</h2>
-              <p> me talking about project one blah blah blah blah blah blah blah.</p>
+            <h2 id="project-one">SWEET SWEAT</h2>
+            <div class="word-content word-content--projects">
+                <p> Sweet Sweat is a branding project for a fake deodorant line.<br>
+                    The created prints and packaging designs below aim to reflect the shape of water and sweat in a fun way lol.
+                </p>
+                <img class="img-sweet" src="/img/Artboard2.png">
+                <img class="img-sweet" src="/img/sweatBluePackage.png">
+                <img class="img-sweet" src="/img/Artboard.png">
+                <img class="img-sweet" src="/img/sweatGreenPackage4.png">
+                <img class="img-sweet" src="/img/Artboard3.png">
+                <img class="img-sweet" src="/img/sweatYellowPackage.png">
+            </div>
         </main>
         <script>
         </script>
